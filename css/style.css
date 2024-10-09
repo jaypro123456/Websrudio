@@ -1,0 +1,215 @@
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 20px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.logo-title {
+  color: #2196f3;
+  margin-left: 150px;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-shadow: 0px 4px 0px #2d222240;
+}
+
+.logo-span {
+  color: black;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.list {
+  margin-left: 60px;
+}
+
+.info-list {
+  margin-left: 360px;
+}
+
+.list_link {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  &:hover {
+    color: #2196f3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+}
+
+/*СЕКЦИЯ ХЕРО*/
+.hero-section {
+  margin-top: 10px;
+  padding: 220px;
+  background-color: #2f303a;
+}
+
+.hero-title {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: white;
+  width: 550px;
+  font-family: "Roboto";
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+}
+
+.hero-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 3px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: white;
+  padding: 5px 20px;
+}
+
+.hero-cont {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/*СЕКЦИЯ ПРЕМУЩЕСТВА*/
+
+.advantages {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.advantages-cont {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.advantages-title {
+  white-space: nowrap;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.advantages-text {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/*СЕКЦИЯ СЕРВИС*/
+
+.servis-cont {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.servis-title {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*СЕКЦИЯ КОМАНДА*/
+
+.team {
+  background-color: #f5f4fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.team-cont {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.team-card {
+  background-color: white;
+  width: 270px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+}
+
+.team-title {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-bold {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  margin-left: 25%;
+}
+
+.team-img {
+  margin-bottom: 15px;
+}
+
+.team-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+  margin-top: 10px;
+}
